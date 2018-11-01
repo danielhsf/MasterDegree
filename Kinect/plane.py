@@ -5,8 +5,8 @@ from datetime import datetime
 #arg1: nome do arquivo pcd
 #arg2: limiar que define a distancia vertical maxima para pertencer ao plano, depende da nuvem
 
-f = open("novo.ply", 'r')
-print("novo.ply")
+f = open("novo(copy).ply", 'r')
+print("novo(copy).ply")
 random.seed(datetime.now())
 
 p = []
@@ -19,7 +19,7 @@ f.close()
 best = 0, 0, 0, 0
 
 n = 5
-limiar = float(0.01)
+limiar = float(0.25)
 for i in range(100):
 	t = random.sample(range(len(p)), n)
 	pts = []
