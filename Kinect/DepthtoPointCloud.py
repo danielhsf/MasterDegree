@@ -47,12 +47,13 @@ pc = np.zeros((h,w,3),dtype= np.float32)
 
 for v in range(0,h):
     for u in range(0,w):
-        z = depth[v,u]/MM_per_m
-        x = (v - cx)*z/constant
-        y = (u - cy)*z/constant
-        pc[v,u,0] = x
-        pc[v,u,1] = y
-        pc[v,u,2] = z
+        if(depth[v,u] != 0):
+            z = depth[v,u]/MM_per_m
+            x = (v - cx)*z/constant
+            y = (u - cy)*z/constant
+            pc[v,u,0] = x
+            pc[v,u,1] = y
+            pc[v,u,2] = z
         
 newimg = np.zeros((640*480,3),dtype = np.uint8)
 cont = 0
