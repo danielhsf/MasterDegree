@@ -21,7 +21,7 @@ int
     return (-1);
 
   pcl::visualization::PCLVisualizer p ("test");
-  p.setBackgroundColor (1, 1, 1);
+  p.setBackgroundColor (0, 0, 0);
 
   // Handler random color demo
   {

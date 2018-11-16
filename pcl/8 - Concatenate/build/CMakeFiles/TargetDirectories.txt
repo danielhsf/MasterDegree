@@ -1,0 +1,3 @@
+/home/robotica/Desktop/MasterDegree/pcl/8 - Concatenate/build/CMakeFiles/rebuild_cache.dir
+/home/robotica/Desktop/MasterDegree/pcl/8 - Concatenate/build/CMakeFiles/concatenate_clouds.dir
+/home/robotica/Desktop/MasterDegree/pcl/8 - Concatenate/build/CMakeFiles/edit_cache.dir

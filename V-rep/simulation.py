@@ -94,12 +94,12 @@ for i in range(0,512):
         #newimg[cont] = test[0]<<16 | test[1]<<8 | test[2]
         cont+=1
 
-pcdimg = np.zeros((h*w,1),dtype = np.uint8)
+pcdimg = np.zeros((h*w,1),dtype =np.uint32)
 cont = 0
 for i in range(0,512):
     for j in range(0,512):
         test = img[i,j]
-        newimg[cont] = test[0]<<16 | test[1]<<8 | test[2]
+        pcdimg[cont] = test[2]<<16 | test[1]<<8 | test[0]
         cont+=1
 
 cx = h/2

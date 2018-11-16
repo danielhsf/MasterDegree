@@ -1,0 +1,3 @@
+/home/robotica/Desktop/MasterDegree/pcl/6 - Plane Segmentation/build/CMakeFiles/rebuild_cache.dir
+/home/robotica/Desktop/MasterDegree/pcl/6 - Plane Segmentation/build/CMakeFiles/planar_segmentation.dir
+/home/robotica/Desktop/MasterDegree/pcl/6 - Plane Segmentation/build/CMakeFiles/edit_cache.dir
