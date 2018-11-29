@@ -71,7 +71,7 @@ element vertex %(vert_num)d
 property float x
 property float y
 property float z
-property float rgb
+property uchar rgb
 end_header
 '''
 def write_pcd(fn, verts, colors):
@@ -79,7 +79,7 @@ def write_pcd(fn, verts, colors):
     verts = np.hstack([verts, colors])
     with open(fn, 'wb') as f:
         f.write((ply_header % dict(vert_num=len(verts))).encode('utf-8'))
-        np.savetxt(f, verts, fmt='%f %f %f %f')
+        np.savetxt(f, verts, fmt='%f %f %f %d')
 
 img = cv2.imread("gray.png") 
 depth = buffer

@@ -24,14 +24,18 @@ def get_video():
 #cv2.imshow('imagem',img)
 #cv2.waitKey()
 fs = cv2.FileStorage("pt.yaml",flags = cv2.FileStorage_WRITE + cv2.FileStorage_FORMAT_YAML)
+
 fs.write("PointCloud",get_depth2())
+
 cv2.imwrite("img.png",get_video())
-#cv2.imwrite("img.png",get_depth())
+cv2.imwrite("depth.png",get_depth2())
+
 while 1:
     cv2.imshow('Depth', get_depth())
     cv2.imshow('Video', get_video())
     if cv2.waitKey(10) == 27:
         break
+
 
 #import time
 #time.sleep(60)

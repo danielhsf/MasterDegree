@@ -1,3 +1,0 @@
-/home/robotica/Desktop/MasterDegree/pcl/7 - Extract Indices/build/CMakeFiles/rebuild_cache.dir
-/home/robotica/Desktop/MasterDegree/pcl/7 - Extract Indices/build/CMakeFiles/extract_indices.dir
-/home/robotica/Desktop/MasterDegree/pcl/7 - Extract Indices/build/CMakeFiles/edit_cache.dir

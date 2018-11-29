@@ -1,0 +1,103 @@
+Obstaculo
+	Coeficientes do plano (A,B,C,D): 7.56478e-05 0.094037 0.995569 -0.0753264
+		Pontos que pertencem ao plano 1287 data points.
+			Max x: 0.3
+			Max y: 1.191
+			Max z: 0.0479778
+			Min x: -0.290292
+			Min y: 0.292782
+			Min z: -0.0369782
+	Coeficientes do plano (A,B,C,D): 3.82002e-05 0.0934332 0.995626 -0.254958
+		Pontos que pertencem ao plano 109 data points.
+			Max x: 0.0610107
+			Max y: 0.963893
+			Max z: 0.181851
+			Min x: -0.102434
+			Min y: 0.78702
+			Min z: 0.165585
+	Coeficientes do plano (A,B,C,D): 1.69712e-06 -0.995455 -0.09523 0.797903
+		Pontos que pertencem ao plano 81 data points.
+			Max x: 0.061056
+			Max y: 0.800235
+			Max z: 0.171876
+			Min x: -0.102271
+			Min y: 0.785105
+			Min z: 0.0136825
+
+Escada
+	Coeficientes do plano (A,B,C,D): 7.8719e-08 0.0926964 0.995694 -0.254956
+		Pontos que pertencem ao plano 480 data points.
+			Max x: 0.290104
+			Max y: 0.644783
+			Max z: 0.221011
+			Min x: -0.290104
+			Min y: 0.375502
+			Min z: 0.196797
+	Coeficientes do plano (A,B,C,D): -2.1581e-08 0.0819006 0.99664 -0.426603
+		Pontos que pertencem ao plano 450 data points.
+			Max x: 0.290133
+			Max y: 0.903141
+			Max z: 0.376414
+			Min x: -0.290133
+			Min y: 0.631387
+			Min z: 0.353754
+	Coeficientes do plano (A,B,C,D): -2.96385e-07 -0.996624 -0.0821071 0.390301
+		Pontos que pertencem ao plano 360 data points.
+			Max x: 0.290291
+			Max y: 0.388863
+			Max z: 0.210048
+			Min x: -0.290292
+			Min y: 0.373623
+			Min z: 0.0392621
+	Coeficientes do plano (A,B,C,D): -4.45021e-08 -0.995454 -0.0952473 0.662583
+		Pontos que pertencem ao plano 270 data points.
+			Max x: 0.290074
+			Max y: 0.645432
+			Max z: 0.350187
+			Min x: -0.290074
+			Min y: 0.632105
+			Min z: 0.210854
+	Coeficientes do plano (A,B,C,D): 4.92184e-07 -0.995422 -0.095578 0.933348
+		Pontos que pertencem ao plano 210 data points.
+			Max x: 0.290644
+			Max y: 0.902101
+			Max z: 0.460358
+			Min x: -0.290644
+			Min y: 0.893456
+			Min z: 0.369957
+	Coeficientes do plano (A,B,C,D): -7.9683e-06 0.0941483 0.995558 -0.0753273
+		Pontos que pertencem ao plano 150 data points.
+			Max x: 0.290067
+			Max y: 0.368536
+			Max z: 0.0479778
+			Min x: -0.290068
+			Min y: 0.292783
+			Min z: 0.0408097
+
+Imagem Real
+Coeficientes do plano (A,B,C,D): 0.436472 0.0168161 0.899561 -0.809884
+Pontos que pertencem ao plano 686 data points.
+Max x: 0.298345
+Max y: 0.500894
+Max z: 0.949127
+Min x: -0.129876
+Min y: 0.00453478
+Min z: 0.738145
+Coeficientes do plano (A,B,C,D): -0.0997619 0.00342996 0.995005 -0.923479
+Pontos que pertencem ao plano 241 data points.
+Max x: -0.0694091
+Max y: 0.500792
+Max z: 0.92788
+Min x: -0.299509
+Min y: 0.00657534
+Min z: 0.8959
+Coeficientes do plano (A,B,C,D): 0.409295 0.0208653 0.912163 -0.808778
+Pontos que pertencem ao plano 82 data points.
+Max x: 0.299332
+Max y: 0.349598
+Max z: 1.00564
+Min x: -0.296082
+Min y: 0.0060426
+Min z: 0.73775
+
+

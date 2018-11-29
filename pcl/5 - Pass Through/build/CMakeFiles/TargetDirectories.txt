@@ -1,3 +1,0 @@
-/home/robotica/Desktop/MasterDegree/pcl/5 - Pass Through/build/CMakeFiles/rebuild_cache.dir
-/home/robotica/Desktop/MasterDegree/pcl/5 - Pass Through/build/CMakeFiles/passthrough.dir
-/home/robotica/Desktop/MasterDegree/pcl/5 - Pass Through/build/CMakeFiles/edit_cache.dir

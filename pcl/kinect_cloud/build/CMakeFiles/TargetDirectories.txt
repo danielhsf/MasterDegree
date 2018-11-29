@@ -1,0 +1,3 @@
+/home/robotica/Desktop/MasterDegree/pcl/kinect_cloud/build/CMakeFiles/rebuild_cache.dir
+/home/robotica/Desktop/MasterDegree/pcl/kinect_cloud/build/CMakeFiles/kinect_cloud.dir
+/home/robotica/Desktop/MasterDegree/pcl/kinect_cloud/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,3 @@
+/home/robotica/Desktop/MasterDegree/pcl/openni/build/CMakeFiles/rebuild_cache.dir
+/home/robotica/Desktop/MasterDegree/pcl/openni/build/CMakeFiles/openni_grabber.dir
+/home/robotica/Desktop/MasterDegree/pcl/openni/build/CMakeFiles/edit_cache.dir
