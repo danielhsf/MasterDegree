@@ -4,19 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/robotica/Desktop/MasterDegree/pcl/3 - Transform View/transform_from_viewpoint.cpp" "/home/robotica/Desktop/MasterDegree/pcl/3 - Transform View/build/CMakeFiles/transform_from_viewpoint.dir/transform_from_viewpoint.cpp.o"
+  "/home/robotica/Desktop/MasterDegree/pcl/1 - Transform View/transform_from_viewpoint.cpp" "/home/robotica/Desktop/MasterDegree/pcl/1 - Transform View/build/CMakeFiles/transform_from_viewpoint.dir/transform_from_viewpoint.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "DISABLE_DAVIDSDK"
-  "DISABLE_DSSDK"
-  "DISABLE_ENSENSO"
-  "DISABLE_LIBUSB_1_0"
   "DISABLE_PCAP"
   "DISABLE_PNG"
-  "DISABLE_RSSDK"
+  "EIGEN_USE_NEW_STDVECTOR"
+  "EIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"
   "FLANN_STATIC"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
@@ -27,10 +24,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "vtkIOExodus_AUTOINIT=1(vtkIOParallelExodus)"
   "vtkIOGeometry_AUTOINIT=1(vtkIOMPIParallel)"
   "vtkIOImage_AUTOINIT=1(vtkIOMPIImage)"
-  "vtkIOParallel_AUTOINIT=1(vtkIOMPIParallel)"
   "vtkIOSQL_AUTOINIT=2(vtkIOMySQL,vtkIOPostgreSQL)"
   "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"
-  "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)"
+  "vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)"
   "vtkRenderingFreeType_AUTOINIT=2(vtkRenderingFreeTypeFontConfig,vtkRenderingMatplotlib)"
   "vtkRenderingLIC_AUTOINIT=1(vtkRenderingParallelLIC)"
   "vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)"
@@ -38,19 +34,20 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/vtk-6.3"
-  "/usr/include/freetype2"
-  "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"
-  "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"
-  "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"
-  "/usr/lib/x86_64-linux-gnu/openmpi/include"
-  "/usr/include/python2.7"
+  "/usr/include/vtk-6.2"
   "/usr/include/x86_64-linux-gnu"
   "/usr/include/hdf5/openmpi"
-  "/usr/include/libxml2"
+  "/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent"
+  "/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include"
+  "/usr/lib/openmpi/include"
+  "/usr/lib/openmpi/include/openmpi"
   "/usr/include/jsoncpp"
+  "/usr/include/freetype2"
+  "/usr/include/x86_64-linux-gnu/freetype2"
+  "/usr/include/python2.7"
+  "/usr/include/libxml2"
   "/usr/include/tcl"
-  "/usr/include/pcl-1.8"
+  "/usr/include/pcl-1.7"
   "/usr/include/eigen3"
   "/usr/include/ni"
   "/usr/include/openni2"
@@ -58,7 +55,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
-  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"
   )
 
 # Targets to which this target links.

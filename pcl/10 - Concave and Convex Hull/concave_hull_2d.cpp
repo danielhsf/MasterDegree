@@ -7,8 +7,6 @@
 #include <pcl/filters/project_inliers.h>
 #include <pcl/segmentation/sac_segmentation.h>
 #include <pcl/surface/concave_hull.h>
-#include <pcl/surface/convex_hull.h>
-#include <pcl/filters/extract_indices.h>
 
 int
 main (int argc, char** argv)
@@ -18,12 +16,12 @@ main (int argc, char** argv)
                                       cloud_projected (new pcl::PointCloud<pcl::PointXYZ>);
   pcl::PCDReader reader;
 
-  reader.read ("5vrep.pcd", *cloud);
+  reader.read ("table_scene_mug_stereo_textured.pcd", *cloud);
   // Build a filter to remove spurious NaNs
   pcl::PassThrough<pcl::PointXYZ> pass;
   pass.setInputCloud (cloud);
   pass.setFilterFieldName ("z");
-  pass.setFilterLimits (-1, 1);
+  pass.setFilterLimits (0, 1.1);
   pass.filter (*cloud_filtered);
   std::cerr << "PointCloud after filtering has: "
             << cloud_filtered->points.size () << " data points." << std::endl;
@@ -53,31 +51,19 @@ main (int argc, char** argv)
   proj.filter (*cloud_projected);
   std::cerr << "PointCloud after projection has: "
             << cloud_projected->points.size () << " data points." << std::endl;
-  
-  // Extract the planar inliers from the input cloud
-  pcl::ExtractIndices<pcl::PointXYZ> extract;
-  extract.setInputCloud (cloud);
-  extract.setIndices (inliers);
-  extract.setNegative (false);
-  
-  // Remove the planar inliers, extract the rest
-  extract.setNegative (true);
-  extract.filter (*cloud_projected);
-  //*cloud_filtered = *cloud_f;
-  
-  std::cerr << "Batente tem " << cloud_projected->points.size ();
+
   // Create a Concave Hull representation of the projected inliers
   pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_hull (new pcl::PointCloud<pcl::PointXYZ>);
-  pcl::ConvexHull<pcl::PointXYZ> chull;
+  pcl::ConcaveHull<pcl::PointXYZ> chull;
   chull.setInputCloud (cloud_projected);
-  //chull.setAlpha (0.1);
+  chull.setAlpha (0.1);
   chull.reconstruct (*cloud_hull);
 
   std::cerr << "Concave hull has: " << cloud_hull->points.size ()
             << " data points." << std::endl;
 
   pcl::PCDWriter writer;
-  writer.write ("5vrep_hull.pcd", *cloud_hull, false);
+  writer.write ("table_scene_mug_stereo_textured_hull.pcd", *cloud_hull, false);
 
   return (0);
 }

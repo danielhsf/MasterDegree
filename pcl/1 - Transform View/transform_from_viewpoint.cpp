@@ -73,9 +73,7 @@ loadCloud (const std::string &filename, pcl::PCLPointCloud2 &cloud)
   return (true);
 }
 
-void
-transform (const pcl::PCLPointCloud2::ConstPtr &input, pcl::PCLPointCloud2 &output)
-{
+void transform (const pcl::PCLPointCloud2::ConstPtr &input, pcl::PCLPointCloud2 &output){
   // Check for 'normals'
   bool has_normals = false;
   for (size_t i = 0; i < input->fields.size (); ++i)
